@@ -27,12 +27,12 @@ from flask import Flask, request, redirect, url_for, render_template
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 
 # Specify the file paths to your CSV files
-products_csv_path = 'C:/Users/GN898ZK/OneDrive - EY/5. My Learnings/33. Python/NIFT Project/NIFT Project/products.csv'
-customer_demographics_csv_path = 'C:/Users/GN898ZK/OneDrive - EY/5. My Learnings/33. Python/NIFT Project/NIFT Project/customer_demographics.csv'
-inventory_csv_path = 'C:/Users/GN898ZK/OneDrive - EY/5. My Learnings/33. Python/NIFT Project/NIFT Project/inventory.csv'
-feedback_csv_path = 'C:/Users/GN898ZK/OneDrive - EY/5. My Learnings/33. Python/NIFT Project/NIFT Project/feedback.csv'
-customer_metrics_csv_path = 'C:/Users/GN898ZK/OneDrive - EY/5. My Learnings/33. Python/NIFT Project/NIFT Project/customer_metrics.csv'
-sales_csv_path = 'C:/Users/GN898ZK/OneDrive - EY/5. My Learnings/33. Python/NIFT Project/NIFT Project/sales.csv'
+products_csv_path = 'C:/Users/GN898ZK/OneDrive - EY/5. My Learnings/33. Python/NIFT Project/NIFT_Project/Python_NIFT/products.csv'
+customer_demographics_csv_path = 'C:/Users/GN898ZK/OneDrive - EY/5. My Learnings/33. Python/NIFT Project/NIFT_Project/Python_NIFT/customer_demographics.csv'
+inventory_csv_path = 'C:/Users/GN898ZK/OneDrive - EY/5. My Learnings/33. Python/NIFT Project/NIFT_Project/Python_NIFT/inventory.csv'
+feedback_csv_path = 'C:/Users/GN898ZK/OneDrive - EY/5. My Learnings/33. Python/NIFT Project/NIFT_Project/Python_NIFT/feedback.csv'
+customer_metrics_csv_path = 'C:/Users/GN898ZK/OneDrive - EY/5. My Learnings/33. Python/NIFT Project/NIFT_Project/Python_NIFT/customer_metrics.csv'
+sales_csv_path = 'C:/Users/GN898ZK/OneDrive - EY/5. My Learnings/33. Python/NIFT Project/NIFT_Project/Python_NIFT/sales.csv'
 
 # Read the CSV files using the specified file paths
 products_data = pd.read_csv(products_csv_path, encoding='utf-8')
